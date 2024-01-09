@@ -1,0 +1,238 @@
+/****** Global Styles ******/
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    color: #5E5D5E;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url('../img/full-background.png') no-repeat #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+header h1 {
+    color: #7B7E54;
+    width: 300px;
+    float: left;
+    padding: 65px 0 65px 25px;
+}
+
+header nav {
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #727172;
+    padding: 0 0 0 50px;
+
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-size: 72px;
+    line-height: 80px;
+    color: #817F80;
+    padding: 20px 0 20px 25px;
+
+}
+
+/****** About Styles ******/
+#about .content-wrapper {
+    padding: 80px;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #817F80;
+    padding: 50px;
+}
+
+#about p {
+    float: left;
+    width: 500px;
+    padding: 0 50px 0 50px;
+}
+
+/****** Skill Styles ******/
+#skills {
+    background: #F5F5F5;
+}
+
+#skills .content-wrapper {
+    text-align: center;
+    padding: 115px 0;
+}
+
+#skills .skill-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#skills h2 {
+    padding-bottom: 40px;
+}
+
+#skills h3 {
+    margin: 30px 0 20px 0;
+}
+
+#skills p {
+    text-align: left;
+}
+
+/****** Contact Styles ******/
+#contact {
+    background: #F9E9E9;
+}
+
+#contact .content-wrapper {
+    padding: 110px 0;
+}
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+}
+
+#contact #desk {
+    width: 500px;
+    height: 300px;
+    border: 12px solid #ffffff;
+    margin: 0 50px;
+    box-sizing: border-box;
+}
+
+#contact .contact-info {
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+}
+
+#contact h2 {
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#contact #email {
+    margin-bottom: 5px;
+}
+
+#contact #socials {
+    margin: 20px 0 5px 0;
+}
+
+#contact #email-link {
+    text-decoration: none;
+    color: #5E5D5E;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+/****** Projects Page Styles ******/
+.project-page {
+    background: #F9EFEF;
+}
+
+/****** Projects Page Projects Styles ******/
+#project-portfolio {
+    background: #F5F5F5;
+}
+
+#project-portfolio .content-wrapper {
+    text-align: center;
+    padding: 115px 0;
+}
+
+#project-portfolio .project-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#project-portfolio h2 {
+    padding-bottom: 40px;
+}
+
+#project-portfolio h3 {
+    margin: 30px 0 20px 0;
+}
+
+#project-portfolio p {
+    text-align: left;
+}
+
+#project-portfolio  img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #5E5D5E;
+    font-size: 24px;
+    line-height: 36px;
+}
